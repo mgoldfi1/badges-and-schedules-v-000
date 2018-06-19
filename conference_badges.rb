@@ -21,9 +21,9 @@ def assign_rooms(speakers)
   roomlist
 end
 
-def printer(array,speakers)
-  puts batch_badge_creator(array)
-  roomlist = assign_rooms(speakers)
+def printer
+  puts batch_badge_creator
+  roomlist = assign_rooms
   roomlist.each do |person|
     puts person
   end
